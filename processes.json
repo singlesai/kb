@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "webservice",
+      "script": "canbo/index.js",
+      "cwd": "./",
+      "watch": [
+        "canbo"
+      ],
+      "error_file": "./logs/app_err.log",
+      "out_file": "./logs/app_out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }]
+}
